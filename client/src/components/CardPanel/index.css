@@ -5,3 +5,8 @@
     font-size: 25px;
     margin-top: 3vh;
 }
+
+.Panel-cards-container {
+    display: flex;
+    justify-content: center;
+}

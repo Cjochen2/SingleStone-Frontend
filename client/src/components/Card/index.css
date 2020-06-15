@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
-.Container {
-    display: flex;
-    justify-content: center;
-}
-
 .Card-content {
     margin-top: 10px;
 }
