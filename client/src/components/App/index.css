@@ -3,9 +3,10 @@
 }
 
 .App-header {
+  width: 100%;
   background-image: url("./images/photo-couch.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   min-height: 70vh;
   display: flex;
   flex-direction: column;

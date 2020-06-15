@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.Container {
+    display: flex;
+    justify-content: center;
+}
+
+.Card-content {
+    margin-top: 10px;
+}
+
+.Card-container {
+    font-family: 'Lato', sans-serif;
+    width: 15vw;
+    margin: 0px 8px;
+}
+
+.Card-number {
+    margin: 10px 0px;
+}
+
+.Card-title {
+    margin: 0;
+}
+
+/* Pseudo element for underline of .Card-number */
+h1:after {
+    content: "";
+    display: block;
+    max-width: 40px;
+    margin: auto;
+    border-bottom: 3px solid #66e2bb;
+    padding-top: 10px;
+}
+
