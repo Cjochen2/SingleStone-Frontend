@@ -1,12 +1,18 @@
 import React from 'react';
 import './index.css';
+import Header from '../Header';
+import CardPanel from '../CardPanel';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Header />
+      <div className="App-header">
         React App
-      </header>
+      </div>
+      <div>
+        <CardPanel />
+      </div>
     </div>
   );
 }
