@@ -1,0 +1,20 @@
+#Content-1{
+    font-size: 20px;
+}
+#Content-2{
+    font-size: 40px;
+}
+
+#Content-3{
+    font-size: 15px;
+}
+
+#Get-started {
+    background-color: #66e2bb;
+    border: none;
+    font-weight: 700;
+    
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 8px 30px;
+}

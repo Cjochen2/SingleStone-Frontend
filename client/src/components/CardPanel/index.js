@@ -11,14 +11,12 @@ function CardPanel() {
         axios.get('https://uqnzta2geb.execute-api.us-east-1.amazonaws.com/default/FrontEndCodeChallenge')
             .then((response) => {
                 let objArray;
-                console.log(response);
                 // Assigns array to variable
                 objArray = response.data;
                 // Sorts objects based on stepNumber property
                 stepSorter(objArray)
                 // Sorts versionContent based on effective Dates
                 dateSorter(objArray);
-                console.log(objArray);
                 // Updates and sets the State to the now sorted JSON data
                 setData(objArray);
             })
@@ -32,12 +30,9 @@ function CardPanel() {
     const stepSorter = (steps) => {
         steps.sort((a, b) => (a.stepNumber > b.stepNumber) ? 1 : -1);
     }
-    
-
-
 
     return (
-        <div>
+        <div className='Panel-container'>
             <div className='Panel-title'>
                 How It Works
             </div>
