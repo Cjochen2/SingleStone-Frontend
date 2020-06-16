@@ -5,21 +5,34 @@ import Card from '../Card'
 
 function CardPanel() {
     const [data, setData] = useState([]);
-    let objArray;
+    
 
     useEffect(() => {
         axios.get('https://uqnzta2geb.execute-api.us-east-1.amazonaws.com/default/FrontEndCodeChallenge')
             .then((response) => {
+                let objArray;
                 console.log(response);
                 // Assigns array to variable
                 objArray = response.data;
                 // Sorts objects based on stepNumber property
-                objArray.sort((a, b) => (a.stepNumber > b.stepNumber) ? 1 : -1);
+                stepSorter(objArray)
+                // Sorts versionContent based on effective Dates
+                dateSorter(objArray);
                 console.log(objArray);
+                // Updates and sets the State to the now sorted JSON data
                 setData(objArray);
             })
 
     }, [])
+
+    const dateSorter = (dates) => {
+        dates.forEach(obj => obj.versionContent.sort((a, b) => (b.effectiveDate >  a.effectiveDate) ? 1 : -1))
+    };
+
+    const stepSorter = (steps) => {
+        steps.sort((a, b) => (a.stepNumber > b.stepNumber) ? 1 : -1);
+    }
+    
 
 
 

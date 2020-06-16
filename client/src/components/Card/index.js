@@ -7,7 +7,7 @@ function Card({stepNumber, title, body}) {
     return (
             <div className='Card-container'>
                 <h1 className='Card-number'>
-                    {stepNumber}
+                    0{stepNumber}
             </h1>
                 <h4 className='Card-title'>
                     {title}
