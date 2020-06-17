@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc5e63e998f22a233ae614bd41b2c68f",
+    "revision": "126f852cffe602c632bc8c03e68a0b94",
     "url": "/SingleStone-Frontend/index.html"
   },
   {
-    "revision": "e32a74708bb3471115ae",
-    "url": "/SingleStone-Frontend/static/css/main.125a7845.chunk.css"
+    "revision": "d64e32e60063e068d7f0",
+    "url": "/SingleStone-Frontend/static/css/main.4e996c85.chunk.css"
   },
   {
     "revision": "0bbd2461654e69da8578",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SingleStone-Frontend/static/js/2.b3f177e2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e32a74708bb3471115ae",
+    "revision": "d64e32e60063e068d7f0",
     "url": "/SingleStone-Frontend/static/js/main.3fbf514a.chunk.js"
   },
   {
