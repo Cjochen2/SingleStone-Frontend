@@ -6,7 +6,7 @@
     height: 12.5vh;
     width: 12.5vh;
     position: relative;
-    left: 20vh;
+    left: 12vw;
     top: 1vh;
     /* Hexcode: #66e2bb */
     filter: invert(78%) sepia(51%) saturate(397%) hue-rotate(104deg) brightness(96%) contrast(86%);

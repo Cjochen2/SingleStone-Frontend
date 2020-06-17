@@ -42,4 +42,22 @@ a:link, a:visited {
     color: black;
 }
 
- 
+@media only screen and (max-width: 555px) {
+    .Main-content {
+        top: 12.5vh;
+    }
+
+    #Content-3 {
+        max-width: 98%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #Content-1 {
+        font-size: 20px;
+    }
+
+    #Content-2 {
+        font-size: 30px;
+    }
+}
