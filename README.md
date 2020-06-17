@@ -13,7 +13,9 @@ Below I have attached a deployed link hosted through GitHub Pages. Which will sh
 
 # Dependancies
 The only dependencies out side of React and its associated defaults are
+    <br/>
     axios - https://www.npmjs.com/package/axios
+    <br/>
     gh-pages - https://www.npmjs.com/package/gh-pages
 
 # About the Design
