@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-
-.Card-content {
-    margin-top: 10px;
-}
-
 .Card-container {
-    /*font-family: 'Lato', sans-serif;*/
     width: 15vw;
     margin: 0px 8px;
 }
 
+.Card-content {
+    margin: auto;
+    margin-top: 10px;
+    max-width: 235px;
+}
+
 .Card-number {
-    font-size: 4vh;
+    font-size: 5vh;
+    font-weight: 500;
     margin: 10px 0px;
 }
 
@@ -23,7 +23,7 @@
 h1:after {
     content: "";
     display: block;
-    max-width: 40px;
+    max-width: 50px;
     margin: auto;
     border-bottom: 3px solid #66e2bb;
     padding-top: 10px;
