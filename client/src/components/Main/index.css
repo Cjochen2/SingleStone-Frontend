@@ -29,4 +29,17 @@
     border-radius: 20px;
     padding: 8px 25px;
     margin-top: 20px;
+    transition: 0.5s;
 }
+
+#Get-started:hover {
+    cursor: pointer;
+    background-color:#41a888;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+ 
