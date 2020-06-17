@@ -41,3 +41,9 @@ h1:after {
         flex-basis: 100%;
     }
 }
+
+@media only screen and (max-height: 500px) {
+    .Card-number {
+        font-size: 8vh;
+    }
+}
