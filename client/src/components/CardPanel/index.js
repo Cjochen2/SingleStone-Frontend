@@ -4,7 +4,9 @@ import './index.css';
 import Card from '../Card'
 
 function CardPanel() {
+    
     const [data, setData] = useState([]);
+
     // Functions used to execute the sorting of data
     const dateSorter = (dates) => {
         dates.forEach(obj => obj.versionContent.sort((a, b) => (b.effectiveDate > a.effectiveDate) ? 1 : -1))
