@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SingleStone-Frontend/static/css/main.70385344.chunk.css",
+    "main.css": "/SingleStone-Frontend/static/css/main.1cd5076e.chunk.css",
     "main.js": "/SingleStone-Frontend/static/js/main.3fbf514a.chunk.js",
     "main.js.map": "/SingleStone-Frontend/static/js/main.3fbf514a.chunk.js.map",
     "runtime-main.js": "/SingleStone-Frontend/static/js/runtime-main.af85edd5.js",
@@ -8,9 +8,9 @@
     "static/js/2.b3f177e2.chunk.js": "/SingleStone-Frontend/static/js/2.b3f177e2.chunk.js",
     "static/js/2.b3f177e2.chunk.js.map": "/SingleStone-Frontend/static/js/2.b3f177e2.chunk.js.map",
     "index.html": "/SingleStone-Frontend/index.html",
-    "precache-manifest.8599f4c523c88f17902ef64126cccf00.js": "/SingleStone-Frontend/precache-manifest.8599f4c523c88f17902ef64126cccf00.js",
+    "precache-manifest.c30b9ada494a9471ea73001dacaef514.js": "/SingleStone-Frontend/precache-manifest.c30b9ada494a9471ea73001dacaef514.js",
     "service-worker.js": "/SingleStone-Frontend/service-worker.js",
-    "static/css/main.70385344.chunk.css.map": "/SingleStone-Frontend/static/css/main.70385344.chunk.css.map",
+    "static/css/main.1cd5076e.chunk.css.map": "/SingleStone-Frontend/static/css/main.1cd5076e.chunk.css.map",
     "static/js/2.b3f177e2.chunk.js.LICENSE.txt": "/SingleStone-Frontend/static/js/2.b3f177e2.chunk.js.LICENSE.txt",
     "static/media/logo-endless.svg": "/SingleStone-Frontend/static/media/logo-endless.40fc43b8.svg",
     "static/media/index.css": "/SingleStone-Frontend/static/media/photo-couch.ccd3c74c.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.af85edd5.js",
     "static/js/2.b3f177e2.chunk.js",
-    "static/css/main.70385344.chunk.css",
+    "static/css/main.1cd5076e.chunk.css",
     "static/js/main.3fbf514a.chunk.js"
   ]
 }
