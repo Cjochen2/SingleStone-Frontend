@@ -6,9 +6,9 @@ Below I have attached a deployed link hosted through GitHub Pages. Which will sh
 
 1. Clone the Repo locally. I personally utilize GitBash and will clone it utilizing the command:
     git clone {Repo Url}
-2. Utilizing your prefered package manager install the dependancies. I utilize NPM command:
-    npm init
-3. Start the react application. Using NPM the command is:
+2. Go into the 'Client' directory and utilizing your prefered package manager install the dependancies. I utilize NPM command:
+    npm i or npm install
+3. Once Dependancies are installed start the react application using the "start" script. Using NPM the command is:
     npm start
 
 # Dependancies
